@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+  <AnchorPane prefHeight="325.0" prefWidth="653.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+    <Label layoutX="181.0" layoutY="43.0" text="端口号:" />
+    <TextField fx:id="port" layoutX="230.0" layoutY="40.0" />
+    <Button layoutX="424.0" layoutY="39.0" onAction="#begin" text="销毁" />
+    <TextArea fx:id="area" layoutX="24.0" layoutY="84.0" prefHeight="228.0" prefWidth="615.0" wrapText="true" />
+  </AnchorPane>
+</GridPane>
